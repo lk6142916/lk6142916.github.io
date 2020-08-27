@@ -1,0 +1,59 @@
+html, body {
+    margin:0;
+    padding:0;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    font-family: 微软雅黑;
+    color: #222222;
+    background: #fff;
+    color: #000;
+    font-family: "宋体","新宋体",sans-serif;
+}
+
+.title_home {
+    background-color: #1c1c1c;
+    height: 120px;
+    visibility: visible;
+    transition: top .3s;
+    vertical-align: bottom;
+    width: 100%;
+    line-height: 120px;
+}
+.company_name{
+    display: inline;
+}
+
+.company_name b {
+    font-size: 30px;
+    color: #ffc001;
+    margin: 0px;
+    margin-left: 105px;
+    max-width: 120px;
+}
+
+.navContent{
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-right: 200px;
+  text-align: center;
+}
+.navContent a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #8e8e8e;
+    width: 80px;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+.navContent a:hover{
+    color:#ffc001;
+}
+
+.itemSpanLine{
+    display: inline-block;
+    width: 20px;
+}
